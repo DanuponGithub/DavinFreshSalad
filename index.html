@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davin Fresh Salad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+        .w3-bar-block .w3-bar-item {padding:20px}
+    </style>
+</head>
+<body>
+    <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+    class="w3-bar-item w3-button">Close Menu</a>
+    <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  </nav>
+  
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">&#9776;</div>
+      <div class="w3-right w3-padding-16">Mail</div>
+      <div class="w3-center w3-padding-16">Davin Fresh Salad</div>
+    </div>
+  </div>
+    
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+  
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <img src="/images/sandwich.jpg" alt="Sandwich" style="width:100%">
+        <h3>The Classical Sandwich, from Ayutthaya</h3>
+        <p>แซนวิชคือความลงตัวของขนมปังนุ่ม ๆ หรือกรอบหอม กับไส้ที่หลากหลาย ไม่ว่าจะเป็นชีสเยิ้ม ๆ เนื้อชุ่มฉ่ำ หรือผักสดกรอบ มายองเนสหอมเข้มข้น ทุกคำคือความฟิน!</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/saladroll.jpg" alt="Saladroll" style="width:100%">
+        <h3>Let Me Tell You About This Salad Roll</h3>
+        <p>Salad Roll คือความสดชื่นที่ห่ออยู่ในแป้งบางนุ่ม! ทุกคำเต็มไปด้วยความกรอบของผักสด หอมมันจากอะโวคาโดหรือชีส และความฉ่ำจากไส้ต่าง ๆ ไม่ว่าจะเป็นกุ้ง ไก่ หรือปูอัด เมื่อจิ้มกับน้ำจิ้มซีฟู้ดแซ่บ ๆ หรือน้ำสลัดงาหอม ๆ ยิ่งเพิ่มความกลมกล่อมจนหยุดกินไม่ได้! 😋🥗</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/hamburger.jpg" alt="Hamburger" style="width:100%">
+        <h3>Original Hamburger</h3>
+        <p>Hamburger คือความฟินที่รวมทุกอย่างไว้ในคำเดียว! 🍔✨ ขนมปังนุ่ม ๆ อบอุ่น ประกบกับเนื้อบดฉ่ำ ๆ ย่างจนหอมกรุ่น เสริมด้วยชีสเยิ้ม ๆ ผักสดกรอบ และซอสเข้มข้นที่ซึมเข้าไปในทุกชั้น ทุกคำที่กัดคือการระเบิดของรสชาติ ที่ทั้งเข้มข้น มัน หอม และลงตัวสุด ๆ! 😋🔥</p>
+        <p>What else?</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/rollwrap.jpg" alt="Rollwrap" style="width:100%">
+        <h3>Roll wrap</h3>
+        <p>
+            Roll Wrap คือความอร่อยที่ห่อมาให้กินง่าย แต่รสชาติไม่ธรรมดา! 🌯✨ แป้งบางนุ่มห่อไส้แน่น ๆ ที่เต็มไปด้วยเนื้อฉ่ำ ๆ หรือไก่นุ่ม ๆ ผสมกับชีสละมุน ผักสดกรอบ และซอสเข้มข้นที่ซึมเข้าไปในทุกคำ ทุกครั้งที่กัดจะได้สัมผัสทั้งความนุ่ม กรอบ หอม และชุ่มฉ่ำแบบลงตัวสุด ๆ! 😋🔥</p>
+      </div>
+    </div>
+    
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="/images/mixedsalad.jpg" alt="Mixedsalad" style="width:100%">
+        <h3>Mixed Vegetables Mayo Salad</h3>
+        <p>Mixed Vegetables Mayo Salad คือความสดชื่นที่มาพร้อมความครีมมี่สุดลงตัว! 🥗✨ ผักหลากสีสันทั้งแครอท ข้าวโพดอ่อน บรอกโคลี และถั่วลันเตา สด กรอบ หวานธรรมชาติ เคล้ากับมายองเนสเนียนนุ่ม หอมมัน กลมกล่อมทุกคำ เม็ดข้าวโพดแตกในปาก เพิ่มสัมผัสฉ่ำ ๆ แบบเต็มคำ กินแล้วสดชื่น หวาน มัน เคี้ยวเพลินจนหยุดไม่อยู่! 😋💚</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/seaweedsalad.jpg" alt="Seaweedsalad" style="width:100%">
+        <h3>Seaweed Salad</h3>
+        <p>Seaweed Salad คือความสดชื่นที่เต็มไปด้วยรสชาติจากท้องทะเล! 🌊🥗 สาหร่ายกรุบกรอบ เคี้ยวเพลิน มีรสหวานธรรมชาติ ผสานกับน้ำสลัดงาหอมมัน หรือซอสเปรี้ยวเค็มหวานแบบญี่ปุ่น เพิ่มความกลมกล่อมแบบลงตัว ทุกคำที่กัดให้ความสดชื่น ฉ่ำ ๆ หอมกลิ่นสาหร่าย เค็มนิด เปรี้ยวหน่อย อร่อยจนต้องขอเพิ่ม! 😋🍣</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/ebiko.jpg" alt="Ebiko" style="width:100%">
+        <h3>Orange Ebiko</h3>
+        <p>Orange Ebiko คือความกรุบกรอบที่เต็มไปด้วยรสชาติทะเล! 🧡✨ ไข่กุ้งสีส้มสดใส เม็ดเล็ก ๆ แตกตัวในปากให้สัมผัสกรุบ ๆ พร้อมรสเค็มมันกลมกล่อมแบบธรรมชาติ ยิ่งโรยบนซูชิ สลัด หรือพาสต้า ยิ่งเพิ่มความอร่อยและความหอมแบบทะเล กินแล้วเพลิน เคี้ยวสนุก เค็มนิด หวานหน่อย ฟินสุด ๆ! 😋🍣</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="/images/seafooddressing.jpg" alt="Seafooddressing" style="width:100%">
+        <h3>Seafood Cream Dressing</h3>
+        <p>Seafood Cream Dressing คือความเข้มข้นที่ผสานรสทะเลสุดละมุน! 🦐🦑✨ ซอสครีมเนียนนุ่ม หอมมัน ละลายในปาก พร้อมรสชาติกลมกล่อมจากซีฟู้ด ไม่ว่าจะเป็นกุ้ง ปู หรือปลาหมึก ที่ช่วยเพิ่มความหวานธรรมชาติ เมื่อราดบนสลัด พาสต้า หรืออาหารทะเล จะช่วยเติมมิติของรสชาติให้ละมุน หอม มัน เค็มนิด หวานหน่อย อร่อยจนหยุดไม่อยู่! 😋🔥</p>
+      </div>
+    </div>
+  
+    <!-- Pagination -->
+    <div class="w3-center w3-padding-32">
+      <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">&laquo;</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">&raquo;</a>
+      </div>
+    </div>
+    
+    <hr id="about">
+  
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">  
+      <h3>About Me, The Food Man</h3><br>
+      <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+      <div class="w3-padding-32">
+        <h4><b>I am Who I Am!</b></h4>
+        <h6><i>With Passion For Real, Good Food</i></h6>
+        <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <hr>
+    
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+      <div class="w3-third">
+        <h3>FOOTER</h3>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </div>
+    
+      <div class="w3-third">
+        <h3>BLOG POSTS</h3>
+        <ul class="w3-ul w3-hoverable">
+          <li class="w3-padding-16">
+            <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Lorem</span><br>
+            <span>Sed mattis nunc</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Ipsum</span><br>
+            <span>Praes tinci sed</span>
+          </li> 
+        </ul>
+      </div>
+  
+      <div class="w3-third w3-serif">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+        </p>
+      </div>
+    </footer>
+  
+  <!-- End page content -->
+  </div>
+  
+  <script>
+  // Script to open and close sidebar
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+   
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+  
+</body>
+</html>
